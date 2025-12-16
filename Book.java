@@ -7,12 +7,7 @@ public class Book {
    private  String status;
    private  List<Author> authors;
 
-    public Book(int bookId, String title, String isbn) {
-        this.bookId = bookId;
-        this.title = title;
-        this.isbn = isbn;
-        this.status = "Available";
-    }
+   
 
     public void getDetails() {
         System.out.println("Book ID: " + bookId);
